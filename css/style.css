@@ -1186,3 +1186,8 @@ footer{
     margin-top: 8px;
   }
 
+@media(max-width: 1225px){
+  .submit-datin{
+    margin-top: 30px !important;
+  }
+}
