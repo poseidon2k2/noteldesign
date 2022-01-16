@@ -1180,43 +1180,9 @@ footer{
   margin-right: 50px;
 }
 
-.file-upload::after{
-    background: #e25286;
-    z-index: 1;
-    left: 0;
-    border-radius: 30px 0 0 30px;
-    width: 95px;
-    height: 100%;
-    top: 0;
 
-}
+@media(min-width: 1220px){
+  .cloud-upload-file{
+    margin-top: 8px;
+  }
 
-.file-upload::before{
-    background: url(../icon/upload.png) no-repeat;
-    z-index: 2;
-    
-}
-
-.file-upload::before{
-    content: '';
-    position: absolute;
-    outline: none;
-    width: 50px;
-    white-space: nowrap;
-    cursor: pointer;
-    height: 34px;
-    left: 205px;
-    top: 472px;
-}
-
-.file-upload::after {
-  content: '';
-    position: absolute;
-    outline: none;
-    width: 105px;
-    height: 50px;
-    white-space: nowrap;
-    cursor: pointer;
-    top: 462px;
-    left: 179px;
-}
